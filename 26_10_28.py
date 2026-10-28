@@ -14,3 +14,16 @@ def solution(my_string):
         elif my_string[i].islower():
             my_string[i].upper()
     return answer
+
+#약수 구하기
+def solution(n):
+    answer = []
+    for i in range(1,n):
+        if n%i==0:
+            answer.append(i)
+    answer.append(n)            
+    return answer
+
+#편지
+def solution(message):
+    return 2*len(message)
