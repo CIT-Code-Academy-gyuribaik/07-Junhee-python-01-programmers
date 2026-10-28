@@ -36,3 +36,13 @@ def solution(array):
     answer.append(a[-1])
     answer.append(array.index(a[-1]))
     return answer
+
+#자릿수 더하기
+def solution(n):
+    N=str(n)
+    x=0
+    for i in range(len(N)):
+        x=x+int(N[i]) 
+    return x
+
+
