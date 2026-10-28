@@ -27,3 +27,12 @@ def solution(n):
 #편지
 def solution(message):
     return 2*len(message)
+
+#가장 큰 수 찾기
+def solution(array):
+    answer = []
+    a=array.copy()
+    a.sort()
+    answer.append(a[-1])
+    answer.append(array.index(a[-1]))
+    return answer
