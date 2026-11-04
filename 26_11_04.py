@@ -12,3 +12,11 @@ def solution(n):
         return 1
     else:
         return 2
+
+#머쓱이보다 키가 큰 사람
+def solution(array, height):
+    answer = 0
+    for i in range(len(array)-1):
+        if height<i:
+            answer = answer + 1
+    return answer
