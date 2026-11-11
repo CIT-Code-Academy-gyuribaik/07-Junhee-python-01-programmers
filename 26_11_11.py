@@ -25,3 +25,11 @@ def solution(rsp):
         else:
             answer = answer + '5'
     return answer
+
+#문자열 정렬하기(2)
+def solution(my_string):
+    answer = ""
+    for x in sorted(my_string.lower()):
+        answer += x
+    return answer
+#lower 메서드와 sort 메서드를 함께 쓰는 것을 헷갈려해서, sorted 함수를 써볼 수 있도록 했습니다.
